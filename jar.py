@@ -39,3 +39,12 @@ class Jar:
     @size.setter
     def size(self,size=0):
         self._size=size
+
+
+if __name__ == "__main__":
+    jar = Jar()
+    print(jar)
+    jar.deposit(3)
+    print(jar)
+    jar.withdraw(1)
+    print(jar)
